@@ -1,0 +1,21 @@
+import pyautogui
+import time
+time.sleep(5)
+for i in range(100):
+    pyautogui.moveTo(x=1600, y=800)
+    pyautogui.click()
+    time.sleep(1)
+    pyautogui.mouseDown(x=1700, y=900, button='left')
+    time.sleep(62)
+    pyautogui.mouseUp(x=1700, y=900, button='left')
+    time.sleep(3)
+    pyautogui.mouseDown(x=1700, y=900, button='left')
+    time.sleep(4)
+    pyautogui.mouseUp(x=1700, y=900, button='left')
+    time.sleep(3)
+    pyautogui.mouseDown(x=1700, y=900, button='left')
+    time.sleep(10)
+    pyautogui.mouseUp(x=1700, y=900, button='left')
+    time.sleep(10)
+    pyautogui.press('enter')
+    time.sleep(3)
